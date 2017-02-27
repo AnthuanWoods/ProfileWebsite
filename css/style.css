@@ -1,0 +1,80 @@
+body{
+		background-image: url("TORONTO.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		-webkit-background-size: cover;
+		background-image.opacity: 0.01;
+		color: snow;
+}
+
+.name{
+	width:50%;
+	text-align: center;
+	float:left;
+}
+.name h1{
+	font-size: 4em;
+}
+.name h2{
+	font-size: 2em;
+}
+
+.Short_Bio{
+	width:50%;
+	float:right;
+	overflow: auto;
+}
+.Short_Bio h1{
+	text-align: center;
+	color: snow;
+}
+
+.Sudoku{
+	padding-top: 80px;
+	width:60%;
+	float:left;
+	padding-bottom:30px;
+}
+.Sudoku_pic{
+	width:50px;
+	height:50px;
+	float:left;
+	content:url("SUDOKU.jpg");
+}
+
+.Enrollment{
+	padding-top: 100px;
+	width:40%;
+	float:left;
+}
+.Enrollment_pic{
+	width:50px;
+	height:50px;
+	float:left;
+	content:url("A.gif");
+}
+
+.Resume{
+		position:fixed;
+		padding-top: 100px;
+		width:40%;
+		float:left;
+}
+.Resume_pic{
+	width:50px;
+	position:fixed;
+	height:50px;
+	float:left;
+	content:url("resume.png");
+}
+
+.Info{
+	position:fixed;;
+	bottom:30px;
+	width:50%;
+}
+
+a{
+	color:snow;
+}
